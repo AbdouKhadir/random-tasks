@@ -29,7 +29,7 @@ export default {
   data() {
     return {
       borderLeft: 0,
-      borderRight: 0,
+      borderRight: 20,
       luckyNumber: 0
     }
   },
