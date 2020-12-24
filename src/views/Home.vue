@@ -1,18 +1,28 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <b-container>
+      <b-row align-h="between">
+        <b-col lg="4" class="mb-5"><name-shuffler/></b-col>
+        <b-col lg="6" ><random-number/></b-col>
+        
+      </b-row>
+      
+    </b-container>
+    
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from "@/components/HelloWorld.vue";
+
+import NameShuffler from '@/components/NameShuffler'
+import RandomNumberVue from "@/components/RandomNumber";
 
 export default {
   name: "Home",
   components: {
-    HelloWorld
+    "name-shuffler": NameShuffler,
+    "random-number": RandomNumberVue
   }
 };
 </script>
