@@ -39,7 +39,7 @@
 export default {
   data() {
     return {
-      listNames: ["Bikri", "Borom Aere Laho", "Chéri Awa", "Fodé"],
+      listNames: ["David", "Leo", "Mouhammad", "Saliou"],
       newPersonName: ""
     }
   },
